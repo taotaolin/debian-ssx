@@ -1,6 +1,7 @@
 # ssr-with-net-speeder
 FROM debian:latest
-MAINTAINER malaohu <tua@live.cn>
+
+MAINTAINER ramiko "tao.ramiko@gmail.com"
 
 RUN apt-get update \
 && apt-get install -y openssh-server python python-pip python-m2crypto libnet1-dev libpcap0.8-dev git gcc \
