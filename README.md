@@ -1,4 +1,4 @@
-# debian-ssx with net-speeder
+## debian-ssx with net-speeder
 
 这是一个ShadowsocksR Docker 修改于 malaohu/ssr-with-net-speeder 的项目
 ## 启动方式
@@ -17,6 +17,10 @@ docker run -d --name ssr-with-net-speeder -p 9527:9527 malaohu/ssr-with-net-spee
 ```
 
 
+##Thanks
 
-## malaohu/ssr-with-net-speeder镜像
+# malaohu/ssr-with-net-speeder镜像
 https://github.com/malaohu/ssr-with-net-speeder
+
+# net-speeder镜像
+https://github.com/snooda/net-speeder
