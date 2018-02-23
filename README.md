@@ -4,7 +4,7 @@
 ## 启动方式
 
 ```
-docker run -d --name ssr-with-net-speeder -p 9527:9527 malaohu/ssr-with-net-speeder -s 0.0.0.0 -p 9527 -k ramiko -m none -o http_simple -O uth_chain_a
+docker run -d --name ssr-with-net-speeder -p 9527:9527 ramiko/debian-ssx -s 0.0.0.0 -p 9527 -k ramiko -m none -o http_simple -O uth_chain_a
 
 ```
 
@@ -12,7 +12,7 @@ docker run -d --name ssr-with-net-speeder -p 9527:9527 malaohu/ssr-with-net-spee
 ## Arukas.io 启动
 
 ```
-镜像 ：malaohu/ssr-with-net-speeder
+镜像 ：ramiko/debian-ssx
 启动命令(CMD) ：-s 0.0.0.0 -p 9527 -k ramiko -m none -o http_simple -O auth_chain_a
 ```
 
